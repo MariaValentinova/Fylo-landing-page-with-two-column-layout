@@ -46,7 +46,6 @@ body {
 
 .container {
     padding: 1.5rem;
-    max-width: 1440px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -458,11 +457,11 @@ span.error-message {
     font-size: 13px;
   }
 
-@media screen and (min-width:376px) {
+@media (min-width:768px) {
 
     .container {
         padding: 1.5rem 4.5rem;
-        max-width: 1440px;
+        max-width: 1240px;
         margin: 0 auto;
         overflow: hidden;
     }
