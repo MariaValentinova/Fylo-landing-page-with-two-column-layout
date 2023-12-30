@@ -148,7 +148,7 @@ body {
 .hero__wave {
     width: 100%;
     height: 115px;
-    background-image: url(./images/bg-curve-mobile.svg);
+    background-image: url("../images/bg-curve-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -532,7 +532,7 @@ span.error-message {
     }
 
     .hero__wave {
-        background-image: url(/images/bg-curve-desktop.svg);
+        background-image: url("../images/bg-curve-desktop.svg");
         height: 75px;
     }
 
